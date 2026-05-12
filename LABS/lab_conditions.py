@@ -103,20 +103,30 @@ Seria bom verificar se o ano inserido cai na era gregoriana e emitir um aviso ca
 Teste seu código usando os dados que fornecemos.
 '''
 
-year = int(input("Digite um ano: "))
+# year = int(input("Digite um ano: "))
 
-if year < 1582:
-  print("Não dentro do período do calendário gregoriano")
-else:
-    if year % 4 != 0:
-        print(f"O ano {year} é comum.")
-    elif year % 100 != 0:
-        print(f"O ano {year} é bissexto.")
-    elif year % 400 != 0:
-        print(f"O ano {year} é comum.")
-    else:
-        print(f"O ano {year} é bissexto.")
+# if year < 1582:
+#   print("Não dentro do período do calendário gregoriano")
+# else:
+#     if year % 4 != 0:
+#         print(f"O ano {year} é comum.")
+#     elif year % 100 != 0:
+#         print(f"O ano {year} é bissexto.")
+#     elif year % 400 != 0:
+#         print(f"O ano {year} é comum.")
+#     else:
+#         print(f"O ano {year} é bissexto.")
 
+
+
+x, y, z = 5, 10, 8
+x, y, z = z, y, x
+ 
+x = 8
+y = 10
+
+print(x > z)
+print((y - 5) == x)
 
   
  
